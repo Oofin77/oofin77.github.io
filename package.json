@@ -7,7 +7,8 @@
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "test": "vitest"
+        "test": "vitest",
+        "deploy": "npm run build && gh-pages -d dist"
     },
     "dependencies": {
         "bootstrap": "^5.3.2",
@@ -20,6 +21,7 @@
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^4.5.2",
+        "gh-pages": "^6.3.0",
         "typescript": "^5.3.3",
         "vite": "5.1.4",
         "vitest": "^1.0.2",

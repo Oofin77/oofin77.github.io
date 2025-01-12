@@ -95,6 +95,20 @@ const rundownData = ref<RundownData>({
         D2: 'https://steamuserimages-a.akamaihd.net/ugc/1862817412085449684/092F2F3A889F630E7E7339FA696C3248C602B6D5/',
         E1: 'https://steamuserimages-a.akamaihd.net/ugc/1862817412086580952/ED302BA72B0FA3D3500D1852327368242738AD96/',
     },
+    R8: {
+        A1: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690768594/2D382004C2E6E28EFCB15095712C6F23EE9AE5EA/',
+        A2: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690769779/59843B562F0D26287045A8C606CFAFEA2C132A85/',
+        B1: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690771657/3FFD67CB49D17BB1241C93DD13CCB8E879395E5E/',
+        B2: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690774225/AD4B5A393E7569A32177B5BAD10516F0632C8F84/',
+        B3: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690775615/B3B418F1339713C356132CA3EC5078CF22990D55/',
+        B4: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690777243/3AB12DAD23A0CB87E98190CDAC9DB01C58DD4DF7/',
+        C1: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690779414/7CB78C45EF27E921251650081C7DBDA4390CCE8F/',
+        C2: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241690781654/C730BF52BCED1BFAB9BF391AA79AF0523DB72359/',
+        D1: 'https://steamuserimages-a.akamaihd.net/ugc/2309848621041203291/A4A3E1A9DFAF1063B4D87D47A67429284B668AB3/',
+        D2: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241691951511/BBE3090E4ED80396BB9B598B63BD6A4FCFD29168/',
+        E1: 'https://steamuserimages-a.akamaihd.net/ugc/2309848241697253959/EFFB5B6FE6AD7A9F51AAE5599884B03C4A91264F/',
+        E2: 'https://steamuserimages-a.akamaihd.net/ugc/2309848621041183199/AB4E8CCB6BD70F9B4BA220B52210FF0DD56C8794/',
+    },
 });
 const rundowns = computed(() => {
     return Object.keys(rundownData.value);
