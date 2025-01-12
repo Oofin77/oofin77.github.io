@@ -1,0 +1,61 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #010508;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.chart-bg {
+  background-color: #1b537a;
+}
+.chart-bg-danger {
+  background-color: #7C2D3E;
+}
+.chart-bg-best {
+  background-color: #257a1b;
+}
+.font-yellow {
+  color: #c7ad24;
+}
+.font-main {
+  color: #d3f7ff;
+}
+.clickable:hover {
+  cursor: pointer;
+  background-color: #191f24;
+}
+.menu-item {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 16px solid;
+  margin-bottom: 2em;
+}
+
+.menu-button {
+  text-align: center;
+  font-weight: bold;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 16px solid;
+  margin-bottom: 2em;
+}
+
+
+.custom-select {
+  font-family: monospace;
+  border: 2px solid;
+}
