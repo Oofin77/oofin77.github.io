@@ -24,6 +24,32 @@
 		}
 	},
 	{
+		"Name": "Nightmare Striker",
+		"Damage": [
+			{
+				"Name": "Strike",
+				"Type": "Melee",
+				"Value": 0.16
+			},
+			{
+				"Name": "Tongue",
+				"Type": "Melee",
+				"Value": 0.08
+			}
+		],
+		"Health": 37,
+		"Stagger HP": 20,
+		"Speed": "Slow/Average",
+		"Weak Points": {
+			"Back": {
+				"Multiplier": 2
+			},
+			"Tumors": {
+				"Multiplier": 2
+			}
+		}
+	},
+	{
 		"Name": "Shooter",
 		"Damage": [
 			{
@@ -48,6 +74,32 @@
 		}
 	},
 	{
+		"Name": "Nightmare Shooter",
+		"Damage": [
+			{
+				"Name": "Shoot",
+				"Type": "Projectile",
+				"Value": 0.06
+			},
+			{
+				"Name": "Tongue",
+				"Type": "Melee",
+				"Value": 0.12
+			}
+		],
+		"Health": 18,
+		"Stagger HP": 8,
+		"Speed": "Slow/Average",
+		"Weak Points": {
+			"Back": {
+				"Multiplier": 2
+			},
+			"Tumors": {
+				"Multiplier": 3
+			}
+		}
+	},
+	{
 		"Name": "Scout",
 		"Damage": [
 			{
@@ -59,6 +111,52 @@
 		"Health": 42,
 		"Stagger HP": 5,
 		"Speed": "Slow/Average",
+		"Weak Points": {
+			"Back": {
+				"Multiplier": 2
+			},
+			"Head": {
+				"Multiplier": 3
+			},
+			"Occipital": {
+				"Multiplier": 6
+			}
+		}
+	},
+	{
+		"Name": "Nightmare Scout",
+		"Damage": [
+			{
+				"Name": "Shoot",
+				"Type": "Projectile",
+				"Value": 0.04
+			}
+		],
+		"Health": 161,
+		"Stagger HP": 5,
+		"Speed": "Slow/Average",
+		"Weak Points": {
+			"Back": {
+				"Multiplier": 2
+			},
+			"Tumors": {
+				"Multiplier": 1,
+				"Health" : 81
+			}
+		}
+	},
+	{
+		"Name": "Zoomer Scout",
+		"Damage": [
+			{
+				"Name": "Shoot",
+				"Type": "Projectile",
+				"Value": 0.04
+			}
+		],
+		"Health": 33,
+		"Stagger HP": 5,
+		"Speed": "Medium/Average",
 		"Weak Points": {
 			"Back": {
 				"Multiplier": 2
@@ -97,6 +195,29 @@
 			},
 			"Occipital": {
 				"Multiplier": 3
+			}
+		}
+	},
+	{
+		"Name": "Nightmare Giant",
+		"Damage": [
+			{
+				"Name": "Strike",
+				"Type": "Melee",
+				"Value": 0.4
+			},
+			{
+				"Name": "Shoot",
+				"Type": "Projectile",
+				"Value": 0.06
+			}
+		],
+		"Health": 640,
+		"Stagger HP": 0,
+		"Speed": "Slow",
+		"Weak Points": {
+			"Back": {
+				"Multiplier": 2
 			}
 		}
 	},
@@ -397,6 +518,30 @@
 		"Weak Points": {
 			"Tumors": {
 				"Multiplier": 5,
+				"Health": 313
+			}
+		}
+	},
+	{
+		"Name": "Mega Mother",
+		"Damage": [
+			{
+				"Name": "Tongue",
+				"Type": "Melee",
+				"Value": 0.12
+			},
+			{
+				"Name": "Shoot",
+				"Type": "Projectile",
+				"Value": 0.06
+			}
+		],
+		"Health": 5000,
+		"Stagger HP": 5000,
+		"Speed": "Very Slow",
+		"Weak Points": {
+			"Tumors": {
+				"Multiplier": 3,
 				"Health": 313
 			}
 		}
